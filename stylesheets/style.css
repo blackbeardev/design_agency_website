@@ -120,6 +120,11 @@ Intro container section
     width: 60%;
     margin: 0 auto;
     padding: .8rem 0;
+    
+}
+
+.divider hr {
+    color: rgba(229, 238, 255, .8);
 }
 
 .intro-stats {
@@ -142,4 +147,53 @@ Intro container section
 .intro-stats-section {
     border-right: 1px solid rgba(255, 255, 255, .25);
     padding-right: 3rem;
+}
+
+/* =======================================================
+About container section
+======================================================= */
+
+.aboutContainer {
+    text-align: center;
+}
+
+.jumbo-greeting-green {
+    font-size: 2rem;
+    color: #39b54a;
+}
+
+.jumbo-statement-lg {
+    font-size: 5.5rem;
+}
+
+.left-align-content {
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+.features i {
+    color: #39b54a;
+    font-size: 4rem;
+}
+
+.feature-title {
+    margin-left: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.features-blurb {
+    margin-left: 6rem;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: #757575;
+}
+
+/* =======================================================
+Works container section
+======================================================= */
+
+.worksContainer {
+    background-color: #000;
+    text-align: center;
 }
